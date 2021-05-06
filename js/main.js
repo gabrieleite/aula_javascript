@@ -1,8 +1,41 @@
+
+var d = new Date();
+alert(d.getMinutes());
+alert(d.getMonth()+1);
+alert(d.getHours());
+
+/*
+var count;
+for(count = 1; count <=5; count++){
+    alert(count);
+}
+*/
+
+/*
+var count = 0;
+while(count <= 5){
+    alert(count);
+    console.log(count);
+    count ++;
+}
+*/
+
+
+/*
+var idade = prompt("Qual sua idade: ");
+
+if(idade >= 18){
+    alert("Maior de idade");
+}else{
+    alert("Menor de idade");
+}
+*/
+/*
 var frutas = [{nome:"maça", cor: "vermelha"}, {nome:"uva", cor: "roxa"}];
 
 console.log(frutas);
 alert(frutas[1].nome);
-
+*/
 
 /*
 var fruta = {nome:"maça", cor: "vermelha"};
